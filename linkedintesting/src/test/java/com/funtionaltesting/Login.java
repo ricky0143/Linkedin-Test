@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Login extends Base 
 {
-	
+	//Intializing variabless
 	public String filePath = "C:\\Users\\ricky\\eclipse-workspace\\funtionaltesting\\src\\main\\resources\\LinkedinTestdata.xlsx";
 	public String sheetName = "LoginTest";
 	public static Object[][] data;
