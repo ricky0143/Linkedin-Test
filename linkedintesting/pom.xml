@@ -27,7 +27,6 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.11</version>
-
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
@@ -44,6 +43,19 @@
 			<version>1.2.17</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+		<dependency>
+			<groupId>com.relevantcodes</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>2.41.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.directory.studio/org.apache.commons.io -->
+		<dependency>
+			<groupId>org.apache.directory.studio</groupId>
+			<artifactId>org.apache.commons.io</artifactId>
+			<version>2.4</version>
+		</dependency>
 
 	</dependencies>
 

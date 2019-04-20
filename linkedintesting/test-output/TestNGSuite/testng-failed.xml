@@ -5,7 +5,11 @@
     <classes>
       <class name="com.funtionaltesting.Login">
         <methods>
-          <include name="login" invocation-numbers="0 1 2"/>
+          <include name="read"/>
+          <include name="tearDown"/>
+          <include name="endReport"/>
+          <include name="setExtend"/>
+          <include name="login"/>
         </methods>
       </class> <!-- com.funtionaltesting.Login -->
     </classes>

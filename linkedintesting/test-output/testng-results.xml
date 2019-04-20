@@ -2,12 +2,16 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-04-15T20:10:23Z" name="Default suite" finished-at="2019-04-15T20:10:34Z" duration-ms="10700">
+  <suite started-at="2019-04-20T05:45:50Z" name="Default suite" finished-at="2019-04-20T05:46:12Z" duration-ms="22177">
     <groups>
     </groups>
-    <test started-at="2019-04-15T20:10:23Z" name="Default test" finished-at="2019-04-15T20:10:34Z" duration-ms="10700">
+    <test started-at="2019-04-20T05:45:50Z" name="Default test" finished-at="2019-04-20T05:46:12Z" duration-ms="22177">
       <class name="com.funtionaltesting.Login">
-        <test-method signature="read(java.lang.String, java.lang.String)[pri:1, instance:com.funtionaltesting.Login@3d34d211]" started-at="2019-04-15T20:10:24Z" name="read" data-provider="excelData" finished-at="2019-04-15T20:10:24Z" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="setExtend()[pri:0, instance:com.funtionaltesting.Login@5c671d7f]" started-at="2019-04-20T05:45:50Z" name="setExtend" finished-at="2019-04-20T05:45:50Z" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtend -->
+        <test-method signature="read(java.lang.String, java.lang.String)[pri:1, instance:com.funtionaltesting.Login@5c671d7f]" started-at="2019-04-20T05:45:51Z" name="read" data-provider="excelData" finished-at="2019-04-20T05:45:51Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +27,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- read -->
-        <test-method signature="read(java.lang.String, java.lang.String)[pri:1, instance:com.funtionaltesting.Login@3d34d211]" started-at="2019-04-15T20:10:24Z" name="read" data-provider="excelData" finished-at="2019-04-15T20:10:24Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.funtionaltesting.Login@5c671d7f]" started-at="2019-04-20T05:45:51Z" name="tearDown" finished-at="2019-04-20T05:45:51Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=read status=SUCCESS method=Login.read(java.lang.String, java.lang.String)[pri:1, instance:com.funtionaltesting.Login@5c671d7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.funtionaltesting.Login@5c671d7f]" started-at="2019-04-20T05:45:51Z" name="tearDown" finished-at="2019-04-20T05:45:51Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=read status=SUCCESS method=Login.read(java.lang.String, java.lang.String)[pri:1, instance:com.funtionaltesting.Login@5c671d7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="read(java.lang.String, java.lang.String)[pri:1, instance:com.funtionaltesting.Login@5c671d7f]" started-at="2019-04-20T05:45:51Z" name="read" data-provider="excelData" finished-at="2019-04-20T05:45:51Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +65,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- read -->
-        <test-method signature="read(java.lang.String, java.lang.String)[pri:1, instance:com.funtionaltesting.Login@3d34d211]" started-at="2019-04-15T20:10:24Z" name="read" data-provider="excelData" finished-at="2019-04-15T20:10:24Z" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.funtionaltesting.Login@5c671d7f]" started-at="2019-04-20T05:45:51Z" name="tearDown" finished-at="2019-04-20T05:45:51Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=read status=SUCCESS method=Login.read(java.lang.String, java.lang.String)[pri:1, instance:com.funtionaltesting.Login@5c671d7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="read(java.lang.String, java.lang.String)[pri:1, instance:com.funtionaltesting.Login@5c671d7f]" started-at="2019-04-20T05:45:51Z" name="read" data-provider="excelData" finished-at="2019-04-20T05:45:51Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,7 +92,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- read -->
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:2, instance:com.funtionaltesting.Login@3d34d211]" started-at="2019-04-15T20:10:24Z" name="login" data-provider="excelData" finished-at="2019-04-15T20:10:27Z" duration-ms="3485" status="PASS">
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:3, instance:com.funtionaltesting.Login@5c671d7f]" started-at="2019-04-20T05:45:51Z" name="login" data-provider="excelData" finished-at="2019-04-20T05:45:54Z" duration-ms="3569" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -71,7 +108,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:2, instance:com.funtionaltesting.Login@3d34d211]" started-at="2019-04-15T20:10:27Z" name="login" data-provider="excelData" finished-at="2019-04-15T20:10:31Z" duration-ms="3154" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.funtionaltesting.Login@5c671d7f]" started-at="2019-04-20T05:45:54Z" name="tearDown" finished-at="2019-04-20T05:45:54Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Login.login(java.lang.String, java.lang.String)[pri:3, instance:com.funtionaltesting.Login@5c671d7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:3, instance:com.funtionaltesting.Login@5c671d7f]" started-at="2019-04-20T05:45:54Z" name="login" data-provider="excelData" finished-at="2019-04-20T05:45:58Z" duration-ms="3870" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,7 +135,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:2, instance:com.funtionaltesting.Login@3d34d211]" started-at="2019-04-15T20:10:31Z" name="login" data-provider="excelData" finished-at="2019-04-15T20:10:34Z" duration-ms="3624" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.funtionaltesting.Login@5c671d7f]" started-at="2019-04-20T05:45:58Z" name="tearDown" finished-at="2019-04-20T05:45:58Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Login.login(java.lang.String, java.lang.String)[pri:3, instance:com.funtionaltesting.Login@5c671d7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:3, instance:com.funtionaltesting.Login@5c671d7f]" started-at="2019-04-20T05:45:58Z" name="login" data-provider="excelData" finished-at="2019-04-20T05:46:12Z" duration-ms="14023" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -103,6 +162,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.funtionaltesting.Login@5c671d7f]" started-at="2019-04-20T05:46:12Z" name="tearDown" finished-at="2019-04-20T05:46:12Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Login.login(java.lang.String, java.lang.String)[pri:3, instance:com.funtionaltesting.Login@5c671d7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.funtionaltesting.Login@5c671d7f]" started-at="2019-04-20T05:46:12Z" name="endReport" finished-at="2019-04-20T05:46:12Z" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
       </class> <!-- com.funtionaltesting.Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
